@@ -9,7 +9,6 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import Home from "./component/home.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
 import Card from "./component/card.jsx";
 import Navbar from "./component/navbar.jsx";
@@ -25,7 +24,7 @@ let html = (
 				buttonLabel="Call to action!"
 				buttonURL="https://reactjs.org/"
 			/>
-			<div className="d-flex">
+			<div className="row">
 				<Card
 					title="CardTitle"
 					imageUrl="http://via.placeholder.com/250x150"
